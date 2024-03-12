@@ -5,6 +5,7 @@ import ShopToMore from "./session/ui/shop-to-more";
 import ShopWay from "./session/ui/shop-way";
 import Footer from "./session/ui/footer";
 import NavbarSimple from "./components/ui/navbar-simple";
+import { ShopCarousel } from "./session/ui/ShopCarousel";
 
 export default function Home() {
   return (
