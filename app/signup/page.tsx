@@ -16,7 +16,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="mx-10 mt-20 grid h-screen max-w-screen-xl gap-10 rounded-3xl border p-5 lg:mx-auto lg:grid-cols-2">
+    <div className="mx-5 mt-20 grid max-w-screen-xl gap-10 rounded-3xl border p-5 lg:mx-auto lg:grid-cols-2">
       <div className="flex hidden items-center justify-center rounded-2xl bg-green-50 lg:block">
         <div className="p-20">
           <Image
@@ -32,10 +32,10 @@ export default function Page() {
           </p>
         </div>
       </div>
-      <Card className="border-0 shadow-none lg:py-32">
+      <Card className="border-0 py-10 shadow-none lg:py-32">
         <CardHeader>
-          <CardTitle>အကောင့်ဝင်မည်</CardTitle>
-          <CardDescription>ခလုပ်တစ်ချက်ဖြင့် အကောင့်ဝင်မည်</CardDescription>
+          <CardTitle>အကောင့်ဖွင့်မည်</CardTitle>
+          <CardDescription>ခလုပ်တစ်ချက်ဖြင့် အကောင့်ဖွင့်မည်</CardDescription>
         </CardHeader>
         <CardContent>
           <form>
@@ -48,18 +48,23 @@ export default function Page() {
                 <Label htmlFor="name">လျှို့ဝှက်စကားလုံး</Label>
                 <Input id="name" placeholder="လျှို့ဝှက်စကားလုံးထည့်ပါ" />
               </div>
+              <div className="flex flex-col space-y-1.5">
+                <Label htmlFor="name">အတည်ပြု လျှို့ဝှက်စကားလုံး</Label>
+                <Input
+                  id="name"
+                  placeholder="အတည်ပြု  လျှို့ဝှက်စကားလုံးထည့်ပါ"
+                />
+              </div>
             </div>
           </form>
         </CardContent>
         <CardFooter className="flex justify-between">
-          <Button variant="outline" className="border-0">
-            စကားဝှက်မေ့သွားသည်
-          </Button>
-          <Button>အကောင့်ဝင်မည်</Button>
+          <Button variant="outline" className="hidden border-0"></Button>
+          <Button className="w-full">အကောင့်ဖွင့်မည်</Button>
         </CardFooter>
         <div className="mx-5 border-t" />
         <div className=" py-5 text-center">
-          <Link href="/signup">အကောင့်ဖွင့်မည်</Link>
+          <Link href="/signin">အကောင့်ဝင်မည်</Link>
         </div>
         <div className="mx-5 border-t" />
         <div className=" space-y-2 px-5 pt-5">

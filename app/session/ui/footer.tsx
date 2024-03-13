@@ -7,12 +7,13 @@ export default function Footer() {
             href="#"
             className="flex items-center justify-center text-2xl font-semibold text-gray-900 dark:text-white"
           >
-            Shwo Ohh Paramacy
+            ရွှေအိုးဆေးဆိုင်
           </a>
           <p className="my-6 text-gray-500 dark:text-gray-400">
-            Over 400+ paramacy and medical that help yout health.
+            ဆေးပေါင်း 4000+ ကို အမြို့မြို့အနယ်နယ်ရှိ ရွှေအိုးဆိုင်ခွဲများတွင်
+            ဝယ်ယူရရှိနိုင်ပါပြီ
           </p>
-          <ul className="mb-6 flex flex-wrap items-center justify-center text-gray-900 dark:text-white">
+          {/* <ul className="mb-6 flex flex-wrap items-center justify-center text-gray-900 dark:text-white">
             <li>
               <a href="#" className="mr-4 hover:underline md:mr-6 ">
                 About
@@ -48,7 +49,7 @@ export default function Footer() {
                 Contact
               </a>
             </li>
-          </ul>
+          </ul> */}
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024-2025{" "}
             <a href="#" className="hover:underline">
