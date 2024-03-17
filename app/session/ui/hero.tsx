@@ -9,6 +9,7 @@ const trustOrgs = [
   {
     id: "237hdwde",
     title: "",
+    href: "https://www.who.int",
     description: "",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/WHO_logo.svg/1991px-WHO_logo.svg.png",
@@ -16,6 +17,7 @@ const trustOrgs = [
   {
     id: "4237fwde",
     title: "",
+    href: "https://unicef.or.th/en/donate",
     description: "",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/f/fb/UNICEF_Logo_%28cropped%29.png",
@@ -23,6 +25,7 @@ const trustOrgs = [
   {
     id: "237h323de",
     title: "",
+    href: "https://www.redcross.org.mm/my_MM",
     description: "",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/0/05/Myanmar_Red_Cross_Society_logo.png",
@@ -30,6 +33,7 @@ const trustOrgs = [
   {
     id: "ehwefeffe",
     title: "",
+    href: "https://www.who.int",
     description: "",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/WHO_logo.svg/1991px-WHO_logo.svg.png",
@@ -83,7 +87,7 @@ export default function Hero() {
                     height={100}
                     className="mx-auto"
                     alt="Picture of the author"
-                    onClick={() => route.push("https://www.who.int/")}
+                    onClick={() => route.push(trustorg.href)}
                   />
                 ))}
               </div>
